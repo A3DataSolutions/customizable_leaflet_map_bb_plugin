@@ -513,7 +513,9 @@
   });
 
   onMount(() => {
-		map.invalidateSize();
+    console.log('component mounted');
+    console.log('invalidating size');
+		mapInstance.invalidateSize();
 	});
 </script>
 
