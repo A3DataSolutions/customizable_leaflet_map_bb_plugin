@@ -512,8 +512,14 @@
     initMap(tileURL, mapAttribution, safeZoomLevel);
   });
 
+
+  tick().then(() => {
+      console.log('the component just updated from tick');
+      mapInstance.invalidateSize();
+  });
+
   onMount(() => {
-    console.log('component mounted');
+    console.log('component mounted 1.07');
     console.log('invalidating size');
 		mapInstance.invalidateSize();
 	});

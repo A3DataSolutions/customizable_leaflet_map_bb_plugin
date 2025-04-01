@@ -1,6 +1,6 @@
 {
   "name": "customizable_leaflet_map",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A component which has the ability to add multiple layers, different icons, and more",
   "license": "MIT",
   "svelte": "index.js",
