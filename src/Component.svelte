@@ -1,5 +1,5 @@
 <script>
-  import { onMount, getContext } from "svelte";
+  import { tick, onMount, getContext } from "svelte";
   import "leaflet/dist/leaflet.css";
 
   import sanitizeHtml from "sanitize-html";
@@ -582,4 +582,6 @@
     gap: var(--spacing-xl);
     margin-top: var(--spacing-xl);
   }
+
+
 </style>
