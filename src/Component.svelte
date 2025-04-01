@@ -40,7 +40,9 @@
   const { styleable, notificationStore } = getContext("sdk");
   const component = getContext("component");
   const embeddedMapId = uuid();
-
+  setTimeout(function () {
+      window.dispatchEvent(new Event('resize'));
+  }, 1000);
   function uuid() {
     return "cxxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx".replace(/[xy]/g, (c) => {
       const r = (Math.random() * 16) | 0;
