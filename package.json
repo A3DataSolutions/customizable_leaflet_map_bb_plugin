@@ -1,6 +1,6 @@
 {
   "name": "customizable_leaflet_map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A component which has the ability to add multiple layers, different icons, and more",
   "license": "MIT",
   "svelte": "index.js",
@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@crownframework/svelte-error-boundary": "^1.0.3",
-    "svelte": "^3.49.0",
-    "sanitize-html":"2.7.2",
-    "leaflet":"1.9.2",
-    "screenfull": "6.0.2"
+    "leaflet": "^1.9.4",
+    "sanitize-html": "2.7.2",
+    "screenfull": "6.0.2",
+    "svelte": "^3.49.0"
   },
   "devDependencies": {
     "@budibase/backend-core": "^2.0.13",
