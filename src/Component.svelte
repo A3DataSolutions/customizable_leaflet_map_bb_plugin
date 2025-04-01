@@ -521,8 +521,12 @@
   onMount(() => {
     console.log('component mounted 1.07');
     console.log('invalidating size');
-		mapInstance.invalidateSize();
+    setInterval(function() {   mapInstance.invalidateSize(); }, 100);
+		
 	});
+
+  setInterval(function() {   mapInstance.invalidateSize(); }, 100);
+
 </script>
 
 <div class="embedded-map-wrapper map-default" use:styleable={$component.styles}>
